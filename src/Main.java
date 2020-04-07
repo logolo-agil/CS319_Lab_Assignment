@@ -15,5 +15,23 @@ public class Main {
         ArrayList3.add(700);
         ArrayList3.add(200);
         System.out.println("Result =>" + ArrayOrganizer.concatAndSort(ArrayList1, ArrayList2, ArrayList3));
+
+        Player Tom = new Player("Tom");
+        Player John = new Player("John");
+        Player James = new Player("James");
+        Player Henry = new Player("Henry");
+        Die die = new Die();
+        for(int i = 0; i<5; i++){
+            Tom.addScore(Die.rollDie());
+            John.addScore(Die.rollDie());
+            James.addScore(Die.rollDie());
+            Henry.addScore(Die.rollDie());
+        }
+        System.out.println(Tom);
+        System.out.println(John);
+        System.out.println(James);
+        System.out.println(Henry);
+
+
     }
 }
