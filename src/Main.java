@@ -15,6 +15,5 @@ public class Main {
         ArrayList3.add(700);
         ArrayList3.add(200);
         System.out.println("Result =>" + ArrayOrganizer.concatAndSort(ArrayList1, ArrayList2, ArrayList3));
-
     }
 }
